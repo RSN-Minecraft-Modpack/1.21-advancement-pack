@@ -1,0 +1,30 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:oak_hanging_sign"
+    },
+    "title": "High-ways Sign",
+    "description": "Place a hanging sign",
+    "background": "minecraft:textures/block/suspicious_sand_0.png",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "advancement:trail_and_tales/root",
+  "criteria": {
+    "place": {
+      "trigger": "minecraft:using_item",
+      "conditions": {
+        "item": {
+          "items": "#minecraft:hanging_signs"
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "place"
+    ]
+  ]
+}
