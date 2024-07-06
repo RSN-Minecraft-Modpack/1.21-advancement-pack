@@ -1,16 +1,34 @@
 {
   "display": {
     "icon": {
-      "id": "minecraft:netherite_upgrade_smithing_template"
+      "id": "minecraft:brush"
     },
-    "title": "1.21 : Tricky Trials",
+    "title": "1.20 : Trail & Tales",
     "description": "Advancement about the 1.20",
-    "background": "minecraft:textures/block/suspicious_sand.png",
-    "frame": "task",
-    "hidden": false
+    "background": "minecraft:textures/block/suspicious_sand_0.png"
   },
   "criteria": {
-    "trail_ruins": {
+    "netherite": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:netherite_upgrade_smithing_template"
+          }
+        ]
+      }
+    },
+    "trim": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "#minecraft:trim_templates"
+          }
+        ]
+      }
+    },
+    "cherry": {
       "trigger": "minecraft:location",
       "conditions": {
         "player": [
@@ -19,12 +37,85 @@
             "entity": "this",
             "predicate": {
               "location": {
-                "structures": "minecraft:trail_ruins"
+                "biomes": "minecraft:cherry_grove"
               }
             }
           }
         ]
       }
+    },
+    "brush": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:brush"
+          }
+        ]
+      }
+    },
+    "calibrate": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:calibrated_sculk_sensor"
+          }
+        ]
+      }
+    },
+    "camel": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "structures": "minecraft:village_desert"
+          }
+        }
+      }
+    },
+    "hanging": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "#minecraft:hanging_signs"
+          }
+        ]
+      }
+    },
+    "book": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:chiseled_bookshelf"
+          }
+        ]
+      }
+    },
+    "bamboo": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:bamboo"
+          }
+        ]
+      }
     }
-  }
+  },
+  "requirements": [
+    [
+      "bamboo",
+      "book",
+      "camel",
+      "calibrate",
+      "netherite",
+      "trim",
+      "cherry",
+      "brush",
+      "hanging"
+    ]
+  ]
 }

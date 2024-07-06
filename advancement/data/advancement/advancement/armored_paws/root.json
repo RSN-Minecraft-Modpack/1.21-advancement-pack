@@ -1,27 +1,45 @@
 {
   "display": {
     "icon": {
-      "id": "minecraft:brush"
+      "id": "minecraft:bone"
     },
-    "title": "1.21 : Tricky Trials",
-    "description": "Advancement about the 1.20",
+    "title": "1.20.5 : Armored paws",
+    "description": "Advancement about the 1.20.5",
     "background": "minecraft:textures/block/dirt_path_top.png",
     "frame": "task",
     "hidden": false
   },
-  "wolf": {
-      "trigger": "minecraft:tame_animal",
-      "conditions": {
-      "player": [
-        {
-          "condition": "minecraft:entity_properties",
-          "entity": "this",
-          "predicate": {}
+  "criteria": {
+    "wolf": {
+        "trigger": "minecraft:tame_animal",
+        "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {}
+          }
+        ],
+        "entity": {
+          "type": "minecraft:wolf"
         }
-      ],
-      "entity": {
-        "type": "minecraft:wolf"
       }
-    }
+    },
+    "scute": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+        "items": [
+          {
+            "items": "minecraft:entity_properties"
+          }
+        ]
+      }
+    },
+    "requirements": [
+      [
+        "wolf",
+        "scute"
+      ]
+    ]
   }
 }
