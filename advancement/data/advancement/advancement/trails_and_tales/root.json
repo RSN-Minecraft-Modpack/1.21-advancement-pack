@@ -5,7 +5,9 @@
     },
     "title": "1.20 : Trail & Tales",
     "description": "Advancement about the Trail & Tales update",
-    "background": "minecraft:textures/block/suspicious_sand_0.png"
+    "background": "minecraft:textures/block/suspicious_sand_0.png",
+    "show_toast": false,
+    "announce_to_chat": false
   },
   "criteria": {
     "netherite": {

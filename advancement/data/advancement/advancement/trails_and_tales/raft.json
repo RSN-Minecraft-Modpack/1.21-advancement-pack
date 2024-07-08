@@ -4,7 +4,7 @@
       "id": "minecraft:bamboo_raft"
     },
     "title": "An unstable boat",
-    "description": "Craft a raft",
+    "description": "Craft and ride a raft",
     "frame": "task",
     "show_toast": true,
     "announce_to_chat": true,

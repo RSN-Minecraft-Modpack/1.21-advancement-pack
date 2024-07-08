@@ -7,7 +7,8 @@
     "description": "Advancement about the 1.21",
     "background": "minecraft:textures/block/tuff_bricks.png",
     "frame": "task",
-    "hidden": false
+    "show_toast": false,
+    "announce_to_chat": false
   },
   "criteria": {
     "trial_chamber": {

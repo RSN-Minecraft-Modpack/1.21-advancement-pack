@@ -12,14 +12,17 @@
   },
   "parent": "advancement:trails_and_tales/root",
   "criteria": {
-    "": {
+    "place": {
       "trigger": "minecraft:placed_block",
       "conditions": {
-        "player": [
+        "player": [],
+        "location": [
           {
-            "condition": "minecraft:match_tool",
+            "condition": "minecraft:location_check",
             "predicate": {
-              "items": "#minecraft:hanging_signs"
+              "block": {
+                "blocks": "#minecraft:all_hanging_signs"
+              }
             }
           }
         ]

@@ -7,7 +7,8 @@
     "description": "Advancement about the 1.20.5",
     "background": "minecraft:textures/block/dirt_path_top.png",
     "frame": "task",
-    "hidden": false
+    "show_toast": false,
+    "announce_to_chat": false
   },
   "criteria": {
     "wolf": {
