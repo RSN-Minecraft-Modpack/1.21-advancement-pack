@@ -1,0 +1,30 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:cactus"
+    },
+    "title": "Camelbaby",
+    "description": "Reproduce two Camels with a Cactus",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "advancement:trails_and_tales/look_camel",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:bred_animals",
+      "conditions": {
+        "parent": {
+          "type": "minecraft:camel"
+        },
+        "partner": {
+          "type": "minecraft:camel"
+        },
+        "child": {
+          "type": "minecraft:camel"
+        }
+      }
+    }
+  }
+}
