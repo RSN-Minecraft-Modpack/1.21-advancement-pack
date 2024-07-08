@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:bamboo_block"
+    },
+    "title": "Bamboo House",
+    "description": "Craft any blocks using bamboo planks",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "advancement:trail_and_tales/bamboo_block",
+  "criteria": {
+    "obtain": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "#advancement:bamboo_variants_block"
+          }
+        ]
+      }
+    }
+  }
+}

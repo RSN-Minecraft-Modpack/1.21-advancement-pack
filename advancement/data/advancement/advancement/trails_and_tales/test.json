@@ -1,0 +1,50 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:bamboo_block"
+    },
+    "title": "An unstable boat",
+    "description": "Craft a raft",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "advancement:trail_and_tales/bamboo_block",
+  "criteria": {
+    "ride": {
+      "trigger": "minecraft:started_riding",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "minecraft:boat"
+            }
+          }
+        ]
+      }
+    },
+    "chest": {
+      "trigger": "minecraft:started_riding",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "minecraft:chest_boat"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "ride",
+      "chest"
+    ]
+  ]
+}
