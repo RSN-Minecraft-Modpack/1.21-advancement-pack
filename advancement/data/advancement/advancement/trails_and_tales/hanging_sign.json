@@ -10,7 +10,7 @@
     "announce_to_chat": true,
     "hidden": false
   },
-  "parent": "advancement:trail_and_tales/root",
+  "parent": "advancement:trails_and_tales/root",
   "criteria": {
     "": {
       "trigger": "minecraft:placed_block",

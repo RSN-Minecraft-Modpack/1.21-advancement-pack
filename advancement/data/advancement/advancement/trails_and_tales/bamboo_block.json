@@ -3,13 +3,14 @@
     "icon": {
       "id": "minecraft:bamboo_block"
     },
-    "title": "Bamboo... Log",
+    "title": "Bamboo... Block ???",
+    "description": "Craft a bamboo block",
     "frame": "task",
     "show_toast": true,
     "announce_to_chat": true,
-    "hidden": false
+    "hidden": true
   },
-  "parent": "advancement:trail_and_tales/root",
+  "parent": "advancement:trails_and_tales/root",
   "criteria": {
     "bamboo": {
       "trigger": "minecraft:inventory_changed",
@@ -21,5 +22,10 @@
         ]
       }
     }
-  }
+  },
+  "requirements": [
+    [
+      "bamboo"
+    ]
+  ]
 }

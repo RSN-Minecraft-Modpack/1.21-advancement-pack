@@ -10,7 +10,7 @@
     "announce_to_chat": true,
     "hidden": false
   },
-  "parent": "advancement:trail_and_tales/bamboo_block",
+  "parent": "advancement:trails_and_tales/bamboo_block",
   "criteria": {
     "obtain": {
       "trigger": "minecraft:inventory_changed",
