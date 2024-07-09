@@ -1,0 +1,1 @@
+execute at @p[limit=1,sort=nearest,advancements={advancement:trails_and_tales/ride_with_other_player=false},distance=..2] run advancement grant @s only advancement:trails_and_tales/ride_with_other_player
