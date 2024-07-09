@@ -1,0 +1,83 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:netherite_pickaxe"
+    },
+    "title": "Netherite",
+    "description": "Use a netherite template",
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "advancement:trails_and_tales/duplicate_smithing",
+  "criteria": {
+    "sword": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:netherite_sword_smithing"
+      }
+    },
+    "pickaxe": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:netherite_pickaxe_smithing"
+      }
+    },
+    "axe": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:netherite_axe_smithing"
+      }
+    },
+    "shovel": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:netherite_shovel_smithing"
+      }
+    },
+    "hoe": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:netherite_hoe_smithing"
+      }
+    },
+    "boot": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:netherite_boots_smithing"
+      }
+    },
+    "helmet": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:netherite_helmet_smithing"
+      }
+    },
+    "chestplate": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:netherite_chestplate_smithing"
+      }
+    },
+    "leggings": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:netherite_leggings_smithing"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "leggings",
+      "chestplate",
+      "helmet",
+      "boot",
+      "shovel",
+      "hoe",
+      "axe",
+      "sword",
+      "pickaxe"
+    ]
+  ]
+}
