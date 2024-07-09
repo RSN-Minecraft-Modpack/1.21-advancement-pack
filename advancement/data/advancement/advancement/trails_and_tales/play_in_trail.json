@@ -15,14 +15,6 @@
     "requirement": {
       "trigger": "minecraft:item_used_on_block",
       "conditions": {
-        "player": [
-          {
-            "condition": "minecraft:match_tool",
-            "predicate": {
-              "items": "minecraft:music_disc_relic"
-            }
-          }
-        ],
         "location": [
           {
             "condition": "minecraft:location_check",
@@ -31,6 +23,12 @@
               "block": {
                 "blocks": "minecraft:jukebox"
               }
+            }
+          },
+          {
+            "condition": "minecraft:match_tool",
+            "predicate": {
+              "items": "minecraft:music_disc_relic"
             }
           }
         ]
