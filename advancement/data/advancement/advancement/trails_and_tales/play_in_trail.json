@@ -1,0 +1,43 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:terracotta"
+    },
+    "title": "Like the good old times",
+    "description": "Play \"relic\" in a trail ruins",
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "advancement:trails_and_tales/play",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:match_tool",
+            "predicate": {
+              "items": "minecraft:music_disc_relic"
+            }
+          }
+        ],
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "structures": "minecraft:trail_ruins",
+              "block": {
+                "blocks": "minecraft:jukebox"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 100
+  }
+}

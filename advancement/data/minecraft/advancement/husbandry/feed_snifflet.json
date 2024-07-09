@@ -1,0 +1,32 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:torchflower_seeds"
+    },
+    "title": "Jurassic World",
+    "description": "Breed 2 Sniffers and look it grow up",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "minecraft:husbandry/plant_any_sniffer_seed",
+  "criteria": {
+    "breed": {
+      "trigger": "minecraft:bred_animals",
+      "conditions": {
+        "parent": {
+          "type": "minecraft:sniffer"
+        },
+        "partner": {
+          "type": "minecraft:sniffer"
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "breed"
+    ]
+  ],
+  "sends_telemetry_event": true
+}
