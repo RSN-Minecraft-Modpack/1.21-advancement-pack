@@ -31,16 +31,16 @@
         "conditions": {
         "items": [
           {
-            "items": "minecraft:entity_properties"
+            "items": "minecraft:armadillo_scute"
           }
         ]
       }
-    },
+    }
+  },
     "requirements": [
       [
         "wolf",
         "scute"
       ]
     ]
-  }
 }

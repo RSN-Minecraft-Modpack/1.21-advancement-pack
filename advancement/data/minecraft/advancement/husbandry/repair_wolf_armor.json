@@ -1,0 +1,46 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:wolf_armor"
+    },
+    "title": "Molt of Armadog",
+    "description": "Repair a Wolf Armor",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "parent": "minecraft:husbandry/remove_wolf_armor",
+  "criteria": {
+    "repair_wolf_armor": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": "minecraft:armadillo_scute"
+        },
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "minecraft:wolf",
+              "equipment": {
+                "body": {
+                  "items": "minecraft:wolf_armor",
+                  "components": {
+                    "minecraft:damage": 0
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "repair_wolf_armor"
+    ]
+  ]
+}
