@@ -1,0 +1,3 @@
+scoreboard objectives add armoredPawsMissingAdvancement trigger
+scoreboard objectives add trickyTrialsMissingAdvancement trigger
+scoreboard objectives add trailsTalesMissingAdvancement trigger
