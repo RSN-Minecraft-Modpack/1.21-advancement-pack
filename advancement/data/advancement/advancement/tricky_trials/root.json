@@ -26,9 +26,20 @@
           }
         ]
       }
+    },
+    "crafter": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {"items": "minecraft:crafter"}
+        ]
+      }
     }
   },
-  "rewards": {
-    "function": "advancement:enter_trials"
-  }
+  "requirements": [
+    [
+      "trial_chamber",
+      "crafter"
+    ]
+  ]
 }
