@@ -4,7 +4,7 @@
       "id": "minecraft:trial_spawner"
     },
     "title": "1.21 : Tricky Trials",
-    "description": "Advancement about the 1.21",
+    "description": "Advancement about the Tricky Trials update",
     "background": "minecraft:textures/block/tuff_bricks.png",
     "frame": "task",
     "show_toast": false,
