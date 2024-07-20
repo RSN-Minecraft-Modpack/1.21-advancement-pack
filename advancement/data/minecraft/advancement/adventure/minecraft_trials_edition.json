@@ -29,5 +29,8 @@
     [
       "minecraft_trials_edition"
     ]
-  ]
+  ],
+  "rewards": {
+    "function": "tracker:tricky_trials/add"
+  }
 }

@@ -1,2 +1,2 @@
-execute at @p[limit=1,sort=nearest,advancements={advancement:trails_and_tales/ride_with_other_player=false},distance=..1.45] run advancement grant @s only advancement:trails_and_tales/ride_with_other_player
 function tracker:trails_and_tales/add
+# execute at @p[limit=1,sort=nearest,advancements={advancement:trails_and_tales/ride_with_other_player=false},distance=..1.45] run advancement grant @s only advancement:trails_and_tales/ride_with_other_player

@@ -315,7 +315,7 @@
     ]
   ],
   "rewards": {
-    "function": "advancement-rewards:global_challenge",
+    "function": "advancement-rewards:trails_and_tales/global_challenge",
     "experience": 600
   }
 }

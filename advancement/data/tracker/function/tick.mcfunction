@@ -5,9 +5,9 @@ execute as @a[scores={armoredPawsMissingAdvancement=1..}] run function tracker:a
 scoreboard players set @a armoredPawsMissingAdvancement 0
 
 scoreboard players enable @a trickyTrialsMissingAdvancement
-execute as @a[scores={trickyTrialsMissingAdvancement=1..}] run tellraw @s "Work in Progress"
+execute as @a[scores={trickyTrialsMissingAdvancement=1..}] run say work in progress
 scoreboard players set @a trickyTrialsMissingAdvancement 0
 
 scoreboard players enable @a trailsTalesMissingAdvancement
-execute as @a[scores={trailsTalesMissingAdvancement=1..}] run tellraw @s "Work in Progress"
+execute as @a[scores={trailsTalesMissingAdvancement=1..}] run function tracker:trails_and_tales/run
 scoreboard players set @a trailsTalesMissingAdvancement 0

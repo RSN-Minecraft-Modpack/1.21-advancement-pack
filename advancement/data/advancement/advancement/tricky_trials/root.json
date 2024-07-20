@@ -41,5 +41,8 @@
       "trial_chamber",
       "crafter"
     ]
-  ]
+  ],
+  "rewards": {
+    "function": "tracker:tricky_trials/add"
+  }
 }
