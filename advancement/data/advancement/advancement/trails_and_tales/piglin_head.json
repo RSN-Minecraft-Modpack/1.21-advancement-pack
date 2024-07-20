@@ -24,7 +24,8 @@
     }
   },
   "rewards": {
-    "experience": 600
+    "experience": 600,
+    "function": "tracker:trails_and_tales/add"
   }
 }
   

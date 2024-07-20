@@ -276,6 +276,7 @@
     ]
   ],
   "rewards": {
-    "experience": 150
+    "experience": 150,
+      "function": "tracker:trails_and_tales/add"
   }
 }

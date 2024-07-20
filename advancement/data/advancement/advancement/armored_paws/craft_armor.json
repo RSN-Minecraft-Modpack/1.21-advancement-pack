@@ -23,5 +23,8 @@
     [
       "craft_wolf_armor"
     ]
-  ]
+  ],
+	"rewards": {
+	  "function": "tracker:armored_paws/add"
+	}
 }

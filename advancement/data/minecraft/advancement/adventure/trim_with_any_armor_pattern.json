@@ -143,5 +143,7 @@
       "armor_trimmed_minecraft:wild_armor_trim_smithing_template_smithing_trim"
     ]
   ],
-  "sends_telemetry_event": false
+	"rewards": {
+	  "function": "tracker:trails_and_tales/add"
+	}
 }

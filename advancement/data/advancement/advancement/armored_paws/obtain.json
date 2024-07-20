@@ -28,5 +28,7 @@
       "obtain"
     ]
   ],
-  "sends_telemetry_event": true
+	"rewards": {
+	  "function": "tracker:armored_paws/add"
+	}
 }

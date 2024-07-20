@@ -34,5 +34,8 @@
     [
       "brush_armadillo"
     ]
-  ]
+  ],
+	"rewards": {
+	  "function": "tracker:armored_paws/add"
+	}
 }

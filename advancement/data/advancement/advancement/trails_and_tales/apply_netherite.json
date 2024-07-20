@@ -79,5 +79,8 @@
       "sword",
       "pickaxe"
     ]
-  ]
+  ],
+	"rewards": {
+	  "function": "tracker:trails_and_tales/add"
+	}
 }

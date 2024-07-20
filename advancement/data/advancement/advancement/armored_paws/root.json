@@ -37,10 +37,13 @@
       }
     }
   },
-    "requirements": [
-      [
-        "wolf",
-        "scute"
-      ]
+  "requirements": [
+    [
+      "wolf",
+      "scute"
     ]
+  ],
+	"rewards": {
+	  "function": "tracker:armored_paws/add"
+	}
 }

@@ -180,5 +180,7 @@
       "comparator"
     ]
   ],
-  "sends_telemetry_event": false
+	"rewards": {
+	  "function": "tracker:trails_and_tales/add"
+	}
 }

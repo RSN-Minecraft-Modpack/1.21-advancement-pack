@@ -196,6 +196,7 @@
     ]
   ],
   "rewards": {
-    "experience": 150
+    "experience": 150,
+	  "function": "tracker:armored_paws/add"
   }
 }

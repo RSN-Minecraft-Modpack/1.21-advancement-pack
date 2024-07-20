@@ -46,5 +46,8 @@
     [
       "pot_crafted_using_only_sherds"
     ]
-  ]
+  ],
+	"rewards": {
+	  "function": "tracker:trails_and_tales/add"
+	}
 }

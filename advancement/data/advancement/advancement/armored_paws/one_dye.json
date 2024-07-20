@@ -240,5 +240,8 @@
 		"red",
 		"black"
 		]
-	]
+	],
+	"rewards": {
+	  "function": "tracker:armored_paws/add"
+	}
 }

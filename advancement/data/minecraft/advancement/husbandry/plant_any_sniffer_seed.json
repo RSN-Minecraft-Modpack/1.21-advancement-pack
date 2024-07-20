@@ -45,5 +45,7 @@
       "torchflower"
     ]
   ],
-  "sends_telemetry_event": true
+	"rewards": {
+	  "function": "tracker:trails_and_tales/add"
+	}
 }
