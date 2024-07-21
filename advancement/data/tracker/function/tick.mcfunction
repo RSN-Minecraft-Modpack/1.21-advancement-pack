@@ -5,7 +5,7 @@ execute as @a[scores={armoredPawsMissingAdvancement=1..}] run function tracker:a
 scoreboard players set @a armoredPawsMissingAdvancement 0
 
 scoreboard players enable @a trickyTrialsMissingAdvancement
-execute as @a[scores={trickyTrialsMissingAdvancement=1..}] run say work in progress
+execute as @a[scores={trickyTrialsMissingAdvancement=1..}] run function tracker:tricky_trials/run
 scoreboard players set @a trickyTrialsMissingAdvancement 0
 
 scoreboard players enable @a trailsTalesMissingAdvancement
