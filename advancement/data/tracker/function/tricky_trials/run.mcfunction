@@ -1,2 +1,1 @@
-tellraw @s ["Work in progress"]
-tellraw @s ["",{"text":"aa "},{"score":{"name":"@s","objective":"trailsTales"}},{"text":" on 4"}]
+tellraw @s ["Tu a réussi ",{"score":{"name":"@s","objective":"trickyTrials"},"color":"aqua"}," parmis ",{"text":" 4","color":"light_purple"}," achievements a propos de la ",{"text":"1.21","bold":true,"color":"green"}," !"]
