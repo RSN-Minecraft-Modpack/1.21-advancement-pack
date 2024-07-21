@@ -11,3 +11,7 @@ scoreboard players set @a trickyTrialsMissingAdvancement 0
 scoreboard players enable @a trailsTalesMissingAdvancement
 execute as @a[scores={trailsTalesMissingAdvancement=1..}] run function tracker:trails_and_tales/run
 scoreboard players set @a trailsTalesMissingAdvancement 0
+
+scoreboard players add @a armoredPaws 0
+scoreboard players add @a trailsTales 0
+scoreboard players add @a trickyTrials 0
