@@ -13,14 +13,22 @@
   "parent": "advancement:trails_and_tales/look_camel",
   "criteria": {
     "": {
-      "trigger": "minecraft:player_interacted_with_entity",
+      "trigger": "minecraft:started_riding",
       "conditions": {
-        "entity": {
-          "type": "camel",
-          "passenger": {
-            "type": "minecraft:player"
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "vehicle": {
+                "type": "minecraft:camel",
+                "passenger": {
+                  "type": "minecraft:player"
+                }
+              }
+            }
           }
-        }
+        ]
       }
     }
   },
