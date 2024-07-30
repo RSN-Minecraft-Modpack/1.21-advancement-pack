@@ -1,0 +1,30 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:bolt_armor_trim_smithing_template"
+    },
+    "title": "Mecano Suit",
+    "description": "Get and use bolt armor trim",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "minecraft:adventure/under_lock_and_key",
+  "criteria": {
+    "apply": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:bolt_armor_trim_smithing_template_smithing_trim"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "apply"
+    ]
+  ],
+  "rewards": {
+    "function": "tracker:tricky_trials/add"
+  }
+}

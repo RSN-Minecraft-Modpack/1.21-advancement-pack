@@ -1,0 +1,48 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:trial_key"
+    },
+    "title": "It was tr(iv)ial",
+    "description": "Use trial key to unlock vault",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "minecraft:adventure/minecraft_trials_edition",
+  "criteria": {
+    "under_lock_and_key": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": "minecraft:vault",
+                "state": {
+                  "ominous": "false"
+                }
+              }
+            }
+          },
+          {
+            "condition": "minecraft:match_tool",
+            "predicate": {
+              "items": "minecraft:trial_key"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "under_lock_and_key"
+    ]
+  ],
+  "rewards": {
+    "function": "tracker:tricky_trials/add"
+  }
+}

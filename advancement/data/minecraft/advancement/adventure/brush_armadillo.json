@@ -3,7 +3,7 @@
     "icon": {
       "id": "minecraft:brush"
     },
-    "title": "Speed Up",
+    "title": "Tatou Compris",
     "description": "Use a brush to collect scutes faster",
     "frame": "goal",
     "show_toast": true,

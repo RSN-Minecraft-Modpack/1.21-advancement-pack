@@ -1,0 +1,35 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:wind_charge",
+      "components": {
+        "minecraft:enchantment_glint_override": true
+      }
+    },
+    "title": "Rocketman",
+    "description": "Jump with windcharge after sneaking",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "parent": "minecraft:adventure/who_needs_rockets",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:fall_after_explosion",
+      "conditions": {
+        "distance": {
+          "y": {
+            "min": 10,
+            "max": 0
+          }
+        },
+        "cause": {
+          "type": "minecraft:wind_charge"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "tracker:tricky_trials/add"
+  }
+}
