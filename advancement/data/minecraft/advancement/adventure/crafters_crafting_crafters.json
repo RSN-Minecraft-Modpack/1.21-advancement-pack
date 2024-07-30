@@ -1,0 +1,30 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:crafter"
+    },
+    "title": "Crafters Crafting Crafters",
+    "description": "Autocrafting",
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "advancement:tricky_trials/use_crafter",
+  "criteria": {
+    "crafter_crafted_crafter": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:crafter"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "crafter_crafted_crafter"
+    ]
+  ],
+  "rewards": {
+    "function": "tracker:tricky_trials/add"
+  }
+}
