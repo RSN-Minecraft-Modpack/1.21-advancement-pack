@@ -19,8 +19,7 @@
       "conditions": {
         "distance": {
           "y": {
-            "min": 10,
-            "max": 0
+            "min": 11
           }
         },
         "cause": {

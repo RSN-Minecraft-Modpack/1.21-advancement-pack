@@ -10,7 +10,7 @@
     "announce_to_chat": true,
     "hidden": false
   },
-  "parent": "tricky_trials:use_wind_charge",
+  "parent": "advancement:tricky_trials/use_wind_charge",
   "criteria": {
     "who_needs_rockets": {
       "trigger": "minecraft:fall_after_explosion",

@@ -1,1 +1,1 @@
-scoreboard players add @s trailsTales 1
+scoreboard players add @s trickyTrials 1

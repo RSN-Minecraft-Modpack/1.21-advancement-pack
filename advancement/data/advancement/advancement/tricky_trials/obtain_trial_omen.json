@@ -1,0 +1,28 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:trial_spawner"
+    },
+    "title": "Apocalypse Mod",
+    "description": "Obtain trial omen",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "minecraft:adventure/under_lock_and_key",
+  "criteria": {
+    "obtain_effect": {
+      "trigger": "minecraft:effects_changed",
+      "conditions": {
+        "player": {},
+        "effects": {
+          "minecraft:trial_omen": {}
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "tracker:tricky_trials/add"
+  }
+}
