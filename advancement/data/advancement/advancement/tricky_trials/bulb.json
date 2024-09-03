@@ -1,0 +1,144 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:copper_bulb"
+    },
+    "title": "Not a \"bug\" switch",
+    "description": "Use a lever to activate a copper bulb and disable the lever",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "advancement:tricky_trials/craft_any_copper_block",
+  "criteria": {
+    "down": {
+      "trigger": "minecraft:any_block_use",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "offsetY": -1,
+            "predicate": {
+              "block": {
+                "blocks": "#advancement:copper_bulb",
+                "state": {
+                  "lit": "true",
+                  "powered": "false"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "up": {
+      "trigger": "minecraft:any_block_use",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "offsetY": 1,
+            "predicate": {
+              "block": {
+                "blocks": "#advancement:copper_bulb",
+                "state": {
+                  "lit": "true",
+                  "powered": "false"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "south": {
+      "trigger": "minecraft:any_block_use",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "offsetZ": 1,
+            "predicate": {
+              "block": {
+                "blocks": "#advancement:copper_bulb",
+                "state": {
+                  "lit": "true",
+                  "powered": "false"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "north": {
+      "trigger": "minecraft:any_block_use",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "offsetZ": -1,
+            "predicate": {
+              "block": {
+                "blocks": "#advancement:copper_bulb",
+                "state": {
+                  "lit": "true",
+                  "powered": "false"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "east": {
+      "trigger": "minecraft:any_block_use",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "offsetX": 1,
+            "predicate": {
+              "block": {
+                "blocks": "#advancement:copper_bulb",
+                "state": {
+                  "lit": "true",
+                  "powered": "false"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "west": {
+      "trigger": "minecraft:any_block_use",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "offsetX": -1,
+            "predicate": {
+              "block": {
+                "blocks": "#advancement:copper_bulb",
+                "state": {
+                  "lit": "true",
+                  "powered": "false"
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "down","up","south","north","east","west"
+    ]
+  ],
+  "rewards": {
+    "function": "tracker:tricky_trials/add"
+  }
+}
