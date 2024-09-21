@@ -1,0 +1,28 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:ominous_trial_key"
+    },
+    "title": "Second wave",
+    "description": "Obtain an ominous trial key",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "advancement:tricky_trials/obtain_trial_omen",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:ominous_trial_key"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "tracker:tricky_trials/add"
+  }
+}

@@ -21,7 +21,16 @@
             "offsetY": -1,
             "predicate": {
               "block": {
-                "blocks": "#advancement:copper_bulb",
+                "blocks": [
+                  "minecraft:copper_bulb",
+                  "minecraft:exposed_copper_bulb",
+                  "minecraft:oxidized_copper_bulb",
+                  "minecraft:weathered_copper_bulb",
+                  "minecraft:waxed_copper_bulb",
+                  "minecraft:waxed_exposed_copper_bulb",
+                  "minecraft:waxed_oxidized_copper_bulb",
+                  "minecraft:waxed_weathered_copper_bulb"
+                ],
                 "state": {
                   "lit": "true",
                   "powered": "false"
@@ -41,7 +50,16 @@
             "offsetY": 1,
             "predicate": {
               "block": {
-                "blocks": "#advancement:copper_bulb",
+                "blocks": [
+                  "minecraft:copper_bulb",
+                  "minecraft:exposed_copper_bulb",
+                  "minecraft:oxidized_copper_bulb",
+                  "minecraft:weathered_copper_bulb",
+                  "minecraft:waxed_copper_bulb",
+                  "minecraft:waxed_exposed_copper_bulb",
+                  "minecraft:waxed_oxidized_copper_bulb",
+                  "minecraft:waxed_weathered_copper_bulb"
+                ],
                 "state": {
                   "lit": "true",
                   "powered": "false"
@@ -61,7 +79,16 @@
             "offsetZ": 1,
             "predicate": {
               "block": {
-                "blocks": "#advancement:copper_bulb",
+                "blocks": [
+                  "minecraft:copper_bulb",
+                  "minecraft:exposed_copper_bulb",
+                  "minecraft:oxidized_copper_bulb",
+                  "minecraft:weathered_copper_bulb",
+                  "minecraft:waxed_copper_bulb",
+                  "minecraft:waxed_exposed_copper_bulb",
+                  "minecraft:waxed_oxidized_copper_bulb",
+                  "minecraft:waxed_weathered_copper_bulb"
+                ],
                 "state": {
                   "lit": "true",
                   "powered": "false"
@@ -81,7 +108,16 @@
             "offsetZ": -1,
             "predicate": {
               "block": {
-                "blocks": "#advancement:copper_bulb",
+                "blocks": [
+                  "minecraft:copper_bulb",
+                  "minecraft:exposed_copper_bulb",
+                  "minecraft:oxidized_copper_bulb",
+                  "minecraft:weathered_copper_bulb",
+                  "minecraft:waxed_copper_bulb",
+                  "minecraft:waxed_exposed_copper_bulb",
+                  "minecraft:waxed_oxidized_copper_bulb",
+                  "minecraft:waxed_weathered_copper_bulb"
+                ],
                 "state": {
                   "lit": "true",
                   "powered": "false"
@@ -101,7 +137,16 @@
             "offsetX": 1,
             "predicate": {
               "block": {
-                "blocks": "#advancement:copper_bulb",
+                "blocks": [
+                  "minecraft:copper_bulb",
+                  "minecraft:exposed_copper_bulb",
+                  "minecraft:oxidized_copper_bulb",
+                  "minecraft:weathered_copper_bulb",
+                  "minecraft:waxed_copper_bulb",
+                  "minecraft:waxed_exposed_copper_bulb",
+                  "minecraft:waxed_oxidized_copper_bulb",
+                  "minecraft:waxed_weathered_copper_bulb"
+                ],
                 "state": {
                   "lit": "true",
                   "powered": "false"
@@ -121,7 +166,16 @@
             "offsetX": -1,
             "predicate": {
               "block": {
-                "blocks": "#advancement:copper_bulb",
+                "blocks": [
+                  "minecraft:copper_bulb",
+                  "minecraft:exposed_copper_bulb",
+                  "minecraft:oxidized_copper_bulb",
+                  "minecraft:weathered_copper_bulb",
+                  "minecraft:waxed_copper_bulb",
+                  "minecraft:waxed_exposed_copper_bulb",
+                  "minecraft:waxed_oxidized_copper_bulb",
+                  "minecraft:waxed_weathered_copper_bulb"
+                ],
                 "state": {
                   "lit": "true",
                   "powered": "false"

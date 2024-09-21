@@ -1,0 +1,54 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:vault",
+      "components": {
+        "minecraft:block_state": {
+          "ominous": "true"
+        }
+      }
+    },
+    "title": "It was (a) trial",
+    "description": "Use an ominous key",
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "advancement:tricky_trials/obtain_ominous_key",
+  "criteria": {
+    "revaulting": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": "minecraft:vault",
+                "state": {
+                  "ominous": "true"
+                }
+              }
+            }
+          },
+          {
+            "condition": "minecraft:match_tool",
+            "predicate": {
+              "items": "minecraft:ominous_trial_key"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "revaulting"
+    ]
+  ],
+  "rewards": {
+    "function": "tracker:tricky_trials/add",
+    "experience": 25
+  }
+}

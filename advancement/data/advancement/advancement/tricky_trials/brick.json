@@ -1,0 +1,28 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:tuff_bricks"
+    },
+    "title": "Volcanis Sculting",
+    "description": "Craft any tuff bricks variants",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "advancement:tricky_trials/any_tuff_variants",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "#advancement:tuff_brick"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "tracker:tricky_trials/add"
+  }
+}
