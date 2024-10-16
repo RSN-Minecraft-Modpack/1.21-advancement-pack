@@ -15,7 +15,7 @@
     "announce_to_chat": true,
     "hidden": false
   },
-  "parent": "advancement\tricky_trials\potion_root",
+  "parent": "advancement:tricky_trials/potion_root",
   "criteria": {
     "requirement": {
       "trigger": "minecraft:player_killed_entity",
