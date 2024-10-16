@@ -50,5 +50,7 @@
     [
       "past"
     ]
-  ]
+  ],
+  "rewards": {
+    "function": "tracker:tricky_trials/add"
 }
