@@ -52,5 +52,5 @@
     ]
   ],
   "rewards": {
-    "function": "tracker:tricky_trials/add"
+    "function": "tracker:tricky_trials/add"}
 }
