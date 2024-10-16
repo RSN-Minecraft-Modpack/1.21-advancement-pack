@@ -15,6 +15,7 @@
     "announce_to_chat": true,
     "hidden": false
   },
+  "parent": "advancement:tricky_trials/potion_root",
   "rewards": {
     "function": "tracker:tricky_trials/add"},
   "criteria": {
