@@ -16,6 +16,8 @@
     "hidden": false
   },
   "parent": "advancement:tricky_trials/potion_root",
+  "rewards": {
+    "function": "tracker:tricky_trials/add"},
   "criteria": {
     "requirement": {
       "trigger": "minecraft:player_killed_entity",
