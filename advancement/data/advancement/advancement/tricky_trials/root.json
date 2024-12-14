@@ -15,7 +15,10 @@
       "trigger": "minecraft:villager_trade",
       "conditions": {
         "item": {
-          "items":"minecraft:filled_map",
+          "items": [
+            "minecraft:filled_map",
+            "minecraft:map"
+          ],
           "components": {
             "minecraft:item_name": "{\"translate\":\"filled_map.trial_chambers\"}"
           }
