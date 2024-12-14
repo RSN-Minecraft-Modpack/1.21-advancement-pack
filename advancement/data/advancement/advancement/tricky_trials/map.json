@@ -1,17 +1,21 @@
 {
   "display": {
     "icon": {
-      "id": "minecraft:trial_spawner"
+      "id": "minecraft:map",
+      "components": {
+        "minecraft:item_name": "{\"translate\":\"filled_map.trial_chambers\"}"
+      }
     },
-    "title": "1.21 : Tricky Trials",
-    "description": "Advancement about the Tricky Trials update",
-    "background": "minecraft:textures/block/tuff_bricks.png",
+    "title": "Trade",
+    "description": "Trade with a cartogrepher to obtain a trial chambersmap",
     "frame": "task",
-    "show_toast": false,
-    "announce_to_chat": false
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
   },
+  "parent": "advancement:tricky_trials/root",
   "criteria": {
-    "trial_chamber": {
+    "trade": {
       "trigger": "minecraft:villager_trade",
       "conditions": {
         "item": {
@@ -24,23 +28,15 @@
           }
         }
       }
-    },
-    "crafter": {
-      "trigger": "minecraft:inventory_changed",
-      "conditions": {
-        "items": [
-          {"items": "minecraft:crafter"}
-        ]
-      }
     }
   },
   "requirements": [
     [
-      "trial_chamber",
-      "crafter"
+      "trade"
     ]
   ],
   "rewards": {
     "function": "tracker:tricky_trials/add"
-  }
+  },
+  "sends_telemetry_event": false
 }
