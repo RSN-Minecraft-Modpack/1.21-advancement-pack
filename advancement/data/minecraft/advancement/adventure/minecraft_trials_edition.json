@@ -7,7 +7,7 @@
     "description": "Step foot in a Trial Chamber",
     "hidden":"true"
   },
-  "parent": "advancement:tricky_trials/map",
+  "parent": "advancement:tricky_trials/trade_map",
   "criteria": {
     "minecraft_trials_edition": {
       "trigger": "minecraft:location",
