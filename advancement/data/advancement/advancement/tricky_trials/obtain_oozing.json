@@ -9,7 +9,7 @@
         }
       },
       "title": "Sticky",
-      "description": "Use an Oozing potion",
+      "description": "Obtain an Oozing potion",
       "frame": "task",
       "show_toast": true,
       "announce_to_chat": true,
@@ -50,6 +50,9 @@
       [
         "past"
       ]
-    ]
+    ],
+    "rewards": {
+      "function": "tracker:tricky_trials/add"
+    }
   }
   

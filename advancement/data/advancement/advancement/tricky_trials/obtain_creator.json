@@ -28,5 +28,8 @@
       "obtain"
     ]
   ],
-  "sends_telemetry_event": false
+  "sends_telemetry_event": false,
+  "rewards": {
+    "function": "tracker:tricky_trials/add"
+  }
 }
