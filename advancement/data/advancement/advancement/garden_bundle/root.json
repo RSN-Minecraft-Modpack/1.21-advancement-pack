@@ -23,7 +23,6 @@
       }
     },
     "biome": {
-      "trigger": "minecraft:location",
       "conditions": {
         "player": [
           {
@@ -36,7 +35,8 @@
             }
           }
         ]
-      }
+      },
+      "trigger": "minecraft:location"
     }
   },
   "requirements": [

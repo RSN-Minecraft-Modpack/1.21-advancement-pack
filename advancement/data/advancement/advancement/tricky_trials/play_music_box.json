@@ -1,4 +1,5 @@
 {
+    "parent": "advancement:tricky_trials/obtain_music_box",
     "display": {
     "icon": {
       "id": "minecraft:jukebox"
@@ -10,7 +11,7 @@
     "announce_to_chat": true,
     "hidden": true
     },
-    "parent": "advancement:tricky_trials/obtain_music_box",
+    "criteria": {
     "requirement": {"trigger": "minecraft:item_used_on_block",
       "conditions": {
         "location": [
@@ -32,7 +33,7 @@
           }
         ]
       }
-    },
+    }},
     "sends_telemetry_event": false,
     "rewards": {
       "function": "tracker:tricky_trials/add"

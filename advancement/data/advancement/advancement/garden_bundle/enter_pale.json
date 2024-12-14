@@ -13,15 +13,20 @@
   "parent": "advancement:garden_bundle/root",
   "criteria": {
     "biome": {
-      "trigger": "minecraft:location",
       "conditions": {
-        "player": {
-          "type": [],
-          "location": {
-            "biomes": "minecraft:pale_garden"
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "biomes": "minecraft:pale_garden"
+              }
+            }
           }
-        }
-      }
+        ]
+      },
+      "trigger": "minecraft:location"
     }
   },
   "requirements": [
