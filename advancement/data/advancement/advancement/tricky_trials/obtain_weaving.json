@@ -15,7 +15,7 @@
       "announce_to_chat": true,
       "hidden": false
     },
-    "parent":"advancement:tricky_trial/kill_weaving",
+    "parent":"advancement:tricky_trials/kill_weaving",
     "criteria": {
       "requirement": {
         "trigger": "minecraft:tick",

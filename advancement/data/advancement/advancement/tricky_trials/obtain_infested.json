@@ -15,7 +15,7 @@
       "announce_to_chat": true,
       "hidden": false
     },
-    "parent":"advancement:tricky_trial/hit_infested",
+    "parent":"advancement:tricky_trials/hit_infested",
     "criteria": {
       "requirement": {
         "trigger": "minecraft:tick",
