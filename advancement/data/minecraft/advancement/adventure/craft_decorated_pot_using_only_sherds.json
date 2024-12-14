@@ -1,0 +1,53 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:decorated_pot",
+      "count": 1,
+      "components": {
+        "minecraft:pot_decorations": [
+          "minecraft:brick",
+          "minecraft:heart_pottery_sherd",
+          "minecraft:brick",
+          "minecraft:explorer_pottery_sherd"
+        ]
+      }
+    },
+    "title": "Beautiful Vase",
+    "description": "Craft a Decorated Pot from only Pottery Shards",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "minecraft:adventure/salvage_sherd",
+  "criteria": {
+    "pot_crafted_using_only_sherds": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:decorated_pot",
+        "ingredients": [
+          {
+            "items": "#minecraft:decorated_pot_sherds"
+          },
+          {
+            "items": "#minecraft:decorated_pot_sherds"
+          },
+          {
+            "items": "#minecraft:decorated_pot_sherds"
+          },
+          {
+            "items": "#minecraft:decorated_pot_sherds"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "pot_crafted_using_only_sherds"
+    ]
+  ],
+	"rewards": {
+	  "function": "tracker:trails_and_tales/add"
+	}
+}

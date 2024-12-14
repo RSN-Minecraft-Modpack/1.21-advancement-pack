@@ -1,0 +1,28 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:calibrated_sculk_sensor"
+    },
+    "title": "Frequency Sensor",
+    "description": "Craft a Calibrated Sculk Sensor",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "advancement:trails_and_tales/root",
+  "criteria": {
+    "": {"trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:calibrated_sculk_sensor"
+          }
+        ]
+      }
+    }
+  },
+	"rewards": {
+	  "function": "tracker:trails_and_tales/add"
+	}
+}

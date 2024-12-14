@@ -1,0 +1,51 @@
+{
+    "display": {
+      "icon": {
+        "id": "minecraft:note_block"
+      },
+      "title": "Special Effects",
+      "description": "Use a Noteblock with any non-player head on top to produce an unical sound",
+      "frame": "task",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "parent": "advancement:trails_and_tales/piglin_head",
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:default_block_use",
+        "conditions": {
+          "location": [
+            {
+              "condition": "minecraft:location_check",
+              "offsetY": 1,
+              "predicate": {
+                "block": {
+                  "blocks": [
+                  "minecraft:creeper_head",
+                  "minecraft:dragon_head",
+                  "minecraft:piglin_head",
+                  "minecraft:zombie_head",
+                  "minecraft:skeleton_skull",
+                  "minecraft:wither_skeleton_skull"
+                ]
+                }
+              }
+            },
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "block": {
+                  "blocks": "minecraft:note_block"
+                }
+              }
+            }
+          ]
+        }
+      }
+    },
+    "rewards": {
+      "function": "tracker:trails_and_tales/add"
+    }
+  }
+  

@@ -1,0 +1,35 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:oak_hanging_sign"
+    },
+    "title": "High-ways Sign",
+    "description": "Place a hanging sign",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "advancement:trails_and_tales/root",
+  "criteria": {
+    "place": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "player": [],
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": "#minecraft:all_hanging_signs"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+	"rewards": {
+	  "function": "tracker:trails_and_tales/add"
+	}
+}

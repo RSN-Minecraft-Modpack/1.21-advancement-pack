@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:cake"
+    },
+    "title": "Autocooking",
+    "description": "Craft a cake with a  crafter",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "advancement:tricky_trials/use_crafter",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:cake"
+      }
+    }
+  },
+  "rewards": {
+    "function": "tracker:tricky_trials/add"
+  }
+}

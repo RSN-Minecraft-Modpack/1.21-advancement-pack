@@ -1,0 +1,41 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:shears"
+    },
+    "title": "Shear Brilliance",
+    "description": "Use shears to remove an wolf armor",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "advancement:armored_paws/craft_armor",
+  "criteria": {
+    "remove_wolf_armor": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": "minecraft:shears"
+        },
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "minecraft:wolf"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "remove_wolf_armor"
+    ]
+  ],
+	"rewards": {
+	  "function": "tracker:armored_paws/add"
+	}
+}

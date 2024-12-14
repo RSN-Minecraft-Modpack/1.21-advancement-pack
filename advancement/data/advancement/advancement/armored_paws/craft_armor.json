@@ -1,0 +1,30 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:wolf_armor"
+    },
+    "title": "Wolf Armor",
+    "description": "Craft a Wolf Armor with 6 armadillo scute",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "minecraft:adventure/brush_armadillo",
+  "criteria": {
+    "craft_wolf_armor": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:wolf_armor"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "craft_wolf_armor"
+    ]
+  ],
+	"rewards": {
+	  "function": "tracker:armored_paws/add"
+	}
+}

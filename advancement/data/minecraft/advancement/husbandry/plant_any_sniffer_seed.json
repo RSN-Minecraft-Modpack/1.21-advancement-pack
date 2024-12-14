@@ -1,0 +1,51 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:pitcher_pod"
+    },
+    "title": "Phanerozoic Flora",
+    "description": "Get a Pitcher Pod and Torchflower Seed from a sniffer, and plant them",
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "advancement:trails_and_tales/place_sniffer_egg",
+  "criteria": {
+    "pitcher_pod": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:block_state_property",
+            "block": "minecraft:pitcher_crop",
+            "properties": {}
+          }
+        ]
+      }
+    },
+    "torchflower": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:block_state_property",
+            "block": "minecraft:torchflower_crop",
+            "properties": {}
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "pitcher_pod"
+    ],
+    [
+      "torchflower"
+    ]
+  ],
+	"rewards": {
+	  "function": "tracker:trails_and_tales/add"
+	}
+}

@@ -1,0 +1,40 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:salmon"
+    },
+    "title": "Food Conservation",
+    "description": "Store somethings in pot",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "minecraft:adventure/craft_decorated_pot_using_only_sherds",
+  "criteria": {
+    "store": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "player": [],
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": "minecraft:decorated_pot"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "store"
+    ]
+  ],
+	"rewards": {
+	  "function": "tracker:trails_and_tales/add"
+	}
+}

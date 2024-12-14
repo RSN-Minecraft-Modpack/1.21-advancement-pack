@@ -1,0 +1,33 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:armadillo_spawn_egg"
+    },
+    "title": "Breed 2 Armadillo",
+    "description": "Use spider eyes to breed armadillo",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "advancement:armored_paws/look_armadillo",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:bred_animals",
+      "conditions": {
+        "parent": {
+          "type": "minecraft:armadillo"
+        },
+        "partner": {
+          "type": "minecraft:armadillo"
+        },
+        "child": {
+          "type": "minecraft:armadillo"
+        }
+      }
+    }
+  },
+	"rewards": {
+	  "function": "tracker:armored_paws/add"
+	}
+}
