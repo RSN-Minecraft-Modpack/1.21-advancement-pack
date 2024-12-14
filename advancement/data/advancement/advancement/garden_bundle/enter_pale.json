@@ -1,0 +1,36 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:pale_oak_log"
+    },
+    "title": "A white & black biome",
+    "description": "Enter in a pale garden",
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "parent": "advancement:garden_bundle/root",
+  "criteria": {
+    "biome": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type": [],
+          "location": {
+            "biomes": "minecraft:pale_garden"
+          }
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "biome"
+    ]
+  ],
+  "rewards": {
+    "function": "tracker:garden_bundle/add"
+  },
+  "sends_telemetry_event": false
+}

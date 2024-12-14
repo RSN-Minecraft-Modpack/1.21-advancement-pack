@@ -1,0 +1,40 @@
+{
+    "display": {
+    "icon": {
+      "id": "minecraft:jukebox"
+    },
+    "title": "Play \"Creator (Music Box)\"",
+    "description": "Play the music disc Creator (Music Box)",
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+    },
+    "parent": "advancement:tricky_trials/obtain_music_box",
+    "requirement": {"trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": "minecraft:jukebox"
+              }
+            }
+          },
+          {
+            "condition": "minecraft:match_tool",
+            "predicate": {
+              "items": [
+                "minecraft:music_disc_creator_music_box"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "sends_telemetry_event": false,
+    "rewards": {
+      "function": "tracker:tricky_trials/add"
+    }
+}

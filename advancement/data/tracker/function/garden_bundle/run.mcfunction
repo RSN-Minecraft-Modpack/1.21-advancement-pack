@@ -1,0 +1,3 @@
+tellraw @s[scores={gardenBundle=0}] ["Tu n'as réussi aucun des",{"text":" 12","color":"light_purple"}," advancements a propos de la ",{"text":"Tricky Trials update","bold":true,"color":"green"}," !"]
+tellraw @s[scores={gardenBundle=1}] ["Tu as réussi ",{"score":{"name":"@s","objective":"gardenBundle"},"color":"aqua"}," advancement parmis",{"text":" 12","color":"light_purple"}," advancements a propos de la ",{"text":"Tricky Trials update","bold":true,"color":"green"}," !"]
+tellraw @s[scores={gardenBundle=2..}] ["Tu as réussi ",{"score":{"name":"@s","objective":"gardenBundle"},"color":"aqua"}," advancements parmis",{"text":" 12","color":"light_purple"}," advancements a propos de la ",{"text":"Tricky Trials update","bold":true,"color":"green"}," !"]
