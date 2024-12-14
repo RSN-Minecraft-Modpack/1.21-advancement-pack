@@ -1,13 +1,13 @@
 {
   "display": {
     "icon": {
-      "id": "minecraft:map",
+      "id": "minecraft:filled_map",
       "components": {
-        "minecraft:item_name": "{\"translate\":\"filled_map.trial_chambers\"}"
+        "minecraft:map_color": 12741452
       }
     },
-    "title": "Trade",
-    "description": "Trade with a cartogrepher to obtain a trial chambersmap",
+    "title": "Trade a map",
+    "description": "Trade with a cartogrepher to obtain a trial chambers map",
     "frame": "task",
     "show_toast": true,
     "announce_to_chat": true,
