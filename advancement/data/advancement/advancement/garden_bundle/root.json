@@ -45,5 +45,8 @@
       "biome"
     ]
   ],
+  "rewards": {
+    "function": "tracker:garden_bundle/add"
+  },
   "sends_telemetry_event": false
 }

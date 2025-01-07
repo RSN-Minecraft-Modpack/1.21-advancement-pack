@@ -6,7 +6,7 @@
         "minecraft:map_color": 12741452
       }
     },
-    "title": "Trade a map",
+    "title": "Oxidized map",
     "description": "Trade with a cartogrepher to obtain a trial chambers map",
     "frame": "task",
     "show_toast": true,

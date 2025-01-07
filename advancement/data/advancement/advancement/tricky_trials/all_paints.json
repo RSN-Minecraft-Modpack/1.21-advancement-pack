@@ -1,0 +1,402 @@
+{
+  "parent": "advancement:tricky_trials/root",
+  "criteria": {
+    "meditative": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "looking_at": {
+              "type_specific": {
+                "type": "minecraft:painting",
+                "variant": "minecraft:meditative"
+              }
+            }
+          }
+        }
+      }
+    },
+    "prairie": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "looking_at": {
+              "type_specific": {
+                "type": "minecraft:painting",
+                "variant": "minecraft:prairie_ride"
+              }
+            }
+          }
+        }
+      }
+    },
+    "baroque": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "looking_at": {
+              "type_specific": {
+                "type": "minecraft:painting",
+                "variant": "minecraft:baroque"
+              }
+            }
+          }
+        }
+      }
+    },
+    "humble": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "looking_at": {
+              "type_specific": {
+                "type": "minecraft:painting",
+                "variant": "minecraft:humble"
+              }
+            }
+          }
+        }
+      }
+    },
+    "bouquet": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "looking_at": {
+              "type_specific": {
+                "type": "minecraft:painting",
+                "variant": "minecraft:bouquet"
+              }
+            }
+          }
+        }
+      }
+    },
+    "cavebird": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "looking_at": {
+              "type_specific": {
+                "type": "minecraft:painting",
+                "variant": "minecraft:cavebird"
+              }
+            }
+          }
+        }
+      }
+    },
+    "cotan": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "looking_at": {
+              "type_specific": {
+                "type": "minecraft:painting",
+                "variant": "minecraft:cotan"
+              }
+            }
+          }
+        }
+      }
+    },
+    "endboss": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "looking_at": {
+              "type_specific": {
+                "type": "minecraft:painting",
+                "variant": "minecraft:endboss"
+              }
+            }
+          }
+        }
+      }
+    },
+    "fern": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "looking_at": {
+              "type_specific": {
+                "type": "minecraft:painting",
+                "variant": "minecraft:fern"
+              }
+            }
+          }
+        }
+      }
+    },
+    "owlemons": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "looking_at": {
+              "type_specific": {
+                "type": "minecraft:painting",
+                "variant": "minecraft:owlemons"
+              }
+            }
+          }
+        }
+      }
+    },
+    "sunflowers": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "looking_at": {
+              "type_specific": {
+                "type": "minecraft:painting",
+                "variant": "minecraft:sunflowers"
+              }
+            }
+          }
+        }
+      }
+    },
+    "tides": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "looking_at": {
+              "type_specific": {
+                "type": "minecraft:painting",
+                "variant": "minecraft:tides"
+              }
+            }
+          }
+        }
+      }
+    },
+    "backyard": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "looking_at": {
+              "type_specific": {
+                "type": "minecraft:painting",
+                "variant": "minecraft:backyard"
+              }
+            }
+          }
+        }
+      }
+    },
+    "pond": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "looking_at": {
+              "type_specific": {
+                "type": "minecraft:painting",
+                "variant": "minecraft:pond"
+              }
+            }
+          }
+        }
+      }
+    },
+    "unpacked": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "looking_at": {
+              "type_specific": {
+                "type": "minecraft:painting",
+                "variant": "minecraft:unpacked"
+              }
+            }
+          }
+        }
+      }
+    },
+    "orb": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "looking_at": {
+              "type_specific": {
+                "type": "minecraft:painting",
+                "variant": "minecraft:orb"
+              }
+            }
+          }
+        }
+      }
+    },
+    "changing": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "looking_at": {
+              "type_specific": {
+                "type": "minecraft:painting",
+                "variant": "minecraft:changing"
+              }
+            }
+          }
+        }
+      }
+    },
+    "finding": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "looking_at": {
+              "type_specific": {
+                "type": "minecraft:painting",
+                "variant": "minecraft:finding"
+              }
+            }
+          }
+        }
+      }
+    },
+    "lowmist": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "looking_at": {
+              "type_specific": {
+                "type": "minecraft:painting",
+                "variant": "minecraft:lowmist"
+              }
+            }
+          }
+        }
+      }
+    },
+    "passage": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "looking_at": {
+              "type_specific": {
+                "type": "minecraft:painting",
+                "variant": "minecraft:passage"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "display": {
+    "description": "Place a new painting",
+    "icon": {
+      "id": "minecraft:painting"
+    },
+    "title": "New Collection",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "requirements": [
+    [
+      "meditative"
+    ],
+    [
+      "prairie"
+    ],
+    [
+      "baroque"
+    ],
+    [
+      "humble"
+    ],
+    [
+      "bouquet"
+    ],
+    [
+      "cavebird"
+    ],
+    [
+      "cotan"
+    ],
+    [
+      "endboss"
+    ],
+    [
+      "fern"
+    ],
+    [
+      "owlemons"
+    ],
+    [
+      "sunflowers"
+    ],
+    [
+      "tides"
+    ],
+    [
+      "backyard"
+    ],
+    [
+      "pond"
+    ],
+    [
+      "unpacked"
+    ],
+    [
+      "orb"
+    ],
+    [
+      "changing"
+    ],
+    [
+      "finding"
+    ],
+    [
+      "lowmist"
+    ],
+    [
+      "passage"
+    ]
+  ],
+  "rewards": {
+    "function": "tracker:tricky_trials/add",
+    "experience": 55
+  }
+}
