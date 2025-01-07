@@ -1,5 +1,5 @@
 {
-  "parent": "advancement:tricky_trials/root",
+  "parent": "advancement:tricky_trials/one_paint",
   "criteria": {
     "meditative": {
       "trigger": "minecraft:tick",
@@ -323,12 +323,15 @@
     }
   },
   "display": {
-    "description": "Place a new painting",
+    "description": "Look all news painting",
     "icon": {
-      "id": "minecraft:painting"
+      "id": "minecraft:painting",
+      "components": {
+        "minecraft:enchantment_glint_override": true
+      }
     },
-    "title": "New Collection",
-    "frame": "task",
+    "title": "Museum Ticket",
+    "frame": "challenge",
     "show_toast": true,
     "announce_to_chat": true,
     "hidden": true
