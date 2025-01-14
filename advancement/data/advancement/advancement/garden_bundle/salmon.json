@@ -1,0 +1,84 @@
+{
+  "parent": "advancement:garden_bundle/root",
+  "criteria": {
+    "little": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type": "minecraft:player",
+          "type_specific": {
+            "type": "minecraft:player",
+            "looking_at": {
+              "type": "minecraft:salmon",
+              "type_specific": {
+                "type": "minecraft:salmon",
+                "variant": "small"
+              }
+            }
+          }
+        }
+      }
+    },
+    "medium": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type": "minecraft:player",
+          "type_specific": {
+            "type": "minecraft:player",
+            "looking_at": {
+              "type": "minecraft:salmon",
+              "type_specific": {
+                "type": "minecraft:salmon",
+                "variant": "medium"
+              }
+            }
+          }
+        }
+      }
+    },
+    "big": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type": "minecraft:player",
+          "type_specific": {
+            "type": "minecraft:player",
+            "looking_at": {
+              "type": "minecraft:salmon",
+              "type_specific": {
+                "type": "minecraft:salmon",
+                "variant": "large"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "display": {
+    "description": "Find three different salmon",
+    "icon": {
+      "id": "minecraft:salmon"
+    },
+    "title": "Different format",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "requirements": [
+    [
+      "little"
+    ],
+    [
+      "medium"
+    ],
+    [
+      "big"
+    ]
+  ],
+  "rewards": {
+    "function": "tracker:garden_bundle/add"
+  }
+}

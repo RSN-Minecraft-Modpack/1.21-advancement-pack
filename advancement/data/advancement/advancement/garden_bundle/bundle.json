@@ -4,7 +4,7 @@
       "id": "minecraft:bundle"
     },
     "title": "Not a backpack",
-    "description": "one leather and one string",
+    "description": "Just one leather and one string",
     "frame": "goal",
     "show_toast": true,
     "announce_to_chat": true,

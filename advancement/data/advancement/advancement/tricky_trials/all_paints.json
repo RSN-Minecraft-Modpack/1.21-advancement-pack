@@ -400,6 +400,6 @@
   ],
   "rewards": {
     "function": "tracker:tricky_trials/add",
-    "experience": 55
+    "experience": 135
   }
 }

@@ -1,0 +1,47 @@
+{
+  "parent": "advancement:garden_bundle/root",
+  "criteria": {
+    "bordure": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:bordure_indented_banner_pattern"
+          }
+        ]
+      }
+    },
+    "masoned": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:field_masoned_banner_pattern"
+          }
+        ]
+      }
+    }
+  },
+  "display": {
+    "description": "Obtain Bordure Indented & Field Masoned banner patterns",
+    "icon": {
+      "id": "minecraft:field_masoned_banner_pattern"
+    },
+    "title": "New embroidery style",
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "requirements": [
+    [
+      "bordure"
+    ],
+    [
+      "masoned"
+    ]
+  ],
+  "rewards": {
+    "function": "tracker:garden_bundle/add"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "parent": "advancement:garden_bundle/bundle",
+  "criteria": {
+    "be_full": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "#advancement:colored_bundle",
+            "count": 36
+          }
+        ]
+      }
+    }
+  },
+  "display": {
+    "description": "It's really fun",
+    "icon": {
+      "id": "minecraft:bundle"
+    },
+    "title": "A colored bundle",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "requirements": [
+    [
+      "be_full"
+    ]
+  ],
+  "rewards": {
+    "function": "tracker:garden_bundle/add",
+    "experience": 55
+  }
+}

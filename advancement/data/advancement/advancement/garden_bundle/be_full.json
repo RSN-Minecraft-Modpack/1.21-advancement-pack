@@ -1,0 +1,39 @@
+{
+  "parent": "advancement:garden_bundle/bundle",
+  "criteria": {
+    "be_full": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "#minecraft:bundles",
+            "count": 36
+          }
+        ]
+      }
+    }
+  },
+  "display": {
+    "description": "I am really full",
+    "icon": {
+      "id": "minecraft:bundle",
+      "components": {
+        "minecraft:enchantment_glint_override": true
+      }
+    },
+    "title": "Overbundled",
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "requirements": [
+    [
+      "be_full"
+    ]
+  ],
+  "rewards": {
+    "function": "tracker:garden_bundle/add",
+    "experience": 55
+  }
+}
