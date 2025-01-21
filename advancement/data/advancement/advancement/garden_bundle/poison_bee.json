@@ -1,0 +1,60 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:open_eyeblossom"
+    },
+    "title": "Toxicolobee",
+    "description": "Poison a bee with a toxic flower",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "parent": "advancement:garden_bundle/really_suspicious",
+  "criteria": {
+    "wither": {
+      "trigger": "minecraft:tame_animal",
+      "conditions": {
+        "player": {
+          "slots": {
+            "weapon.mainhand": {
+              "items": [
+                "minecraft:open_eyeblossom",
+                "minecraft:closed_eyeblossom"
+              ]
+            }
+          }
+        },
+        "entity": {
+          "type": "minecraft:bee"
+        }
+      }
+    },
+    "poison": {
+      "trigger": "minecraft:tame_animal",
+      "conditions": {
+        "player": {
+          "type": "minecraft:player",
+          "slots": {
+            "weapon.mainhand": {
+              "items": "minecraft:wither_rose"
+            }
+          }
+        },
+        "entity": {
+          "type": "minecraft:bee"
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "poison",
+      "wither"
+    ]
+  ],
+  "rewards": {
+    "function": "tracker:garden_bundle/add",
+    "experience": 5
+  }
+}

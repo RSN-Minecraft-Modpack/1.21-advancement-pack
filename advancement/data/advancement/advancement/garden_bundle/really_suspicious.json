@@ -1,0 +1,37 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:closed_eyeblossom"
+    },
+    "title": "Psycho-plant",
+    "description": "Obtain an eyeblossom & use it to craft a §mreally suspicious§r stew",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "advancement:garden_bundle/enter_pale",
+  "criteria": {
+    "open": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:suspicious_stew_from_open_eyeblossom"
+      }
+    },
+    "closed": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:suspicious_stew_from_closed_eyeblossom"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "open",
+      "closed"
+    ]
+  ],
+  "rewards": {
+    "function": "tracker:garden_bundle/add"
+  }
+}
