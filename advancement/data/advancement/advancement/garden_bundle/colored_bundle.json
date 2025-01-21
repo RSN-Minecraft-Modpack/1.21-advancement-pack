@@ -6,8 +6,7 @@
       "conditions": {
         "items": [
           {
-            "items": "#advancement:colored_bundle",
-            "count": 36
+            "items": "#advancement:colored_bundle"
           }
         ]
       }

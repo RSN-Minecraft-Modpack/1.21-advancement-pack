@@ -4,6 +4,9 @@
     "be_full": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
+        "slots": {
+          "occupied": 36
+        },
         "items": [
           {
             "items": "#minecraft:bundles",
