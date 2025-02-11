@@ -2,6 +2,7 @@
     "values": [
       "minecraft:resin_brick_stairs",
       "minecraft:resin_brick_slab",
-      "minecraft:resin_brick_wall"
+      "minecraft:resin_brick_wall",
+      "minecraft:chiseled_resin_bricks"
     ]
 }
