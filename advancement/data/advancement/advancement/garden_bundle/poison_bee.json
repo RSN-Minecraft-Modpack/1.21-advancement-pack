@@ -12,7 +12,7 @@
   },
   "parent": "advancement:garden_bundle/really_suspicious",
   "criteria": {
-    "wither": {
+    "poison": {
       "trigger": "minecraft:tame_animal",
       "conditions": {
         "player": {
@@ -29,7 +29,7 @@
         }
       }
     },
-    "poison": {
+    "wither": {
       "trigger": "minecraft:tame_animal",
       "conditions": {
         "player": {
@@ -54,6 +54,6 @@
   ],
   "rewards": {
     "function": "tracker:garden_bundle/add",
-    "experience": 5
+    "experience": 15
   }
 }

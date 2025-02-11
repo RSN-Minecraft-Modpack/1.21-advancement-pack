@@ -9,8 +9,7 @@
         },
         "items": [
           {
-            "items": "#minecraft:bundles",
-            "count": 36
+            "items": "#minecraft:bundles"
           }
         ]
       }
@@ -37,6 +36,6 @@
   ],
   "rewards": {
     "function": "tracker:garden_bundle/add",
-    "experience": 55
+    "experience": 75
   }
 }
