@@ -27,6 +27,7 @@
               },
               {
                 "condition": "minecraft:location_check",
+                "offsetY": -2,
                 "predicate": {
                   "block": {
                     "blocks": "#minecraft:pale_oak_logs"
@@ -35,6 +36,7 @@
               },
               {
                 "condition": "minecraft:location_check",
+                "offsetY": -1,
                 "predicate": {
                   "block": {
                     "blocks": "minecraft:creaking_heart"
@@ -58,26 +60,26 @@
                 "predicate": {
                   "items": "minecraft:creaking_heart"
                 }
+              },
+              {
+                "condition": "minecraft:location_check",
+                "offsetY": 1,
+                "predicate": {
+                  "block": {
+                    "blocks": "#minecraft:pale_oak_logs"
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:location_check",
+                "offsetY": -1,
+                "predicate": {
+                  "block": {
+                    "blocks": "#minecraft:pale_oak_logs"
+                  }
+                }
               }
             ]
-          },
-          {
-            "condition": "minecraft:location_check",
-            "offsetY": 1,
-            "predicate": {
-              "block": {
-                "blocks": "#minecraft:pale_oak_logs"
-              }
-            }
-          },
-          {
-            "condition": "minecraft:location_check",
-            "offsetY": -1,
-            "predicate": {
-              "block": {
-                "blocks": "#minecraft:pale_oak_logs"
-              }
-            }
           }
         ]
       }
