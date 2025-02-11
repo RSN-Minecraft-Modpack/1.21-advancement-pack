@@ -13,16 +13,10 @@
   "parent": "advancement:garden_bundle/really_suspicious",
   "criteria": {
     "poison": {
-      "trigger": "minecraft:tame_animal",
+      "trigger": "minecraft:player_interacted_with_entity",
       "conditions": {
-        "player": {
-          "slots": {
-            "weapon.mainhand": {
-              "items": [
-                "minecraft:open_eyeblossom"
-              ]
-            }
-          }
+        "item": {
+          "items": "minecraft:open_eyeblossom"
         },
         "entity": {
           "type": "minecraft:bee"
@@ -30,15 +24,10 @@
       }
     },
     "wither": {
-      "trigger": "minecraft:tame_animal",
+      "trigger": "minecraft:player_interacted_with_entity",
       "conditions": {
-        "player": {
-          "type": "minecraft:player",
-          "slots": {
-            "weapon.mainhand": {
-              "items": "minecraft:wither_rose"
-            }
-          }
+        "item": {
+          "items": "minecraft:wither_rose"
         },
         "entity": {
           "type": "minecraft:bee"
