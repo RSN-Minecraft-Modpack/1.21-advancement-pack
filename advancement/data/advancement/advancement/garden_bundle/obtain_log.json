@@ -1,0 +1,34 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:pale_oak_log"
+    },
+    "title": "Strange Wood",
+    "description": "Mine a bit of this eerie tree",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "advancement:garden_bundle/enter_pale.json",
+  "criteria": {
+    "get_log": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:pale_oak_log"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "get_log"
+    ]
+  ],
+  "rewards": {
+    "function": "tracker:garden_bundle/add"
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:resin_clump"
+    },
+    "title": "Garden blood",
+    "description": "Hurt a creacking to get some resin",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "advancement:garden_bundle/look_creaking.json",
+  "criteria": {
+    "look": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type": "minecraft:player",
+          "type_specific": {
+            "type": "minecraft:player",
+            "looking_at": {
+              "type": "minecraft:creaking"
+            }
+          }
+        }
+      }
+    },
+    "resin": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:resin_clump"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "resin"
+    ],
+    [
+      "look"
+    ]
+  ],
+  "rewards": {
+    "function": "tracker:garden_bundle/add"
+  }
+}
