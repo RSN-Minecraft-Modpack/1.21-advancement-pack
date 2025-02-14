@@ -3,7 +3,7 @@
     "icon": {
       "id": "minecraft:sand"
     },
-    "title": "Desert Traders",
+    "title": "Desert Nomad",
     "description": "Ride a Camel with another player",
     "frame": "goal",
     "show_toast": true,
