@@ -4,7 +4,7 @@
       "id": "minecraft:suspicious_gravel"
     },
     "title": "An old village",
-    "description": "Enter in a trial ruins",
+    "description": "Enter in a trail ruins",
     "frame": "task",
     "show_toast": true,
     "announce_to_chat": true

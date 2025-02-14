@@ -3,7 +3,7 @@
     "icon": {
       "id": "minecraft:cherry_sapling"
     },
-    "title": "Can't I eat cherry ?",
+    "title": "I can't eat cherry ?",
     "description": "Plant a Cherry Sapplings",
     "frame": "task",
     "show_toast": true,

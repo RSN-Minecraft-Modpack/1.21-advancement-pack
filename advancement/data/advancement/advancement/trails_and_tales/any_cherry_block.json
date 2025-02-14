@@ -4,7 +4,7 @@
       "id": "minecraft:stripped_cherry_wood"
     },
     "title": "Feodal Japan ?",
-    "description": "Get a Cherry Log",
+    "description": "Get any cherry variants",
     "frame": "task",
     "show_toast": true,
     "announce_to_chat": true,

@@ -21,10 +21,7 @@
             "entity": "this",
             "predicate": {
               "vehicle": {
-                "type": "minecraft:camel",
-                "passenger": {
-                  "type": "minecraft:player"
-                }
+                "type": "minecraft:camel"
               }
             }
           }
@@ -33,6 +30,6 @@
     }
   },
   "rewards": {
-    "function": "advancement-rewards:trails_and_tales/give_ride_with_other_player"
+    "function": "tracker:trails_and_tales/add"
   }
 }

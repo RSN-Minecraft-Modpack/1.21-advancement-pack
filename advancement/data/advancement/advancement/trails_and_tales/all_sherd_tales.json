@@ -4,7 +4,7 @@
       "id": "minecraft:miner_pottery_sherd"
     },
     "title": "Carving with style",
-    "description": "Get every different Pottery Shards (they are 20 types)",
+    "description": "Get every different Pottery Shards which added in 1.20 (they are 20 types)",
     "frame": "challenge",
     "show_toast": true,
     "announce_to_chat": true,

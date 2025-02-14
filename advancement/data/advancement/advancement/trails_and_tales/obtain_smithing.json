@@ -17,7 +17,7 @@
       "conditions": {
         "items": [
           {
-            "items": "#minecraft:trim_templates"
+            "items": "#advancement:trim_templates"
           }
         ]
       }

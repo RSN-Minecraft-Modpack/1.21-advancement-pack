@@ -20,7 +20,7 @@
             "condition": "minecraft:location_check",
             "predicate": {
               "block": {
-                "blocks": "minecraft:sniffer_egg"
+                "blocks": "minecraft:heavy_core"
               }
             }
           }
