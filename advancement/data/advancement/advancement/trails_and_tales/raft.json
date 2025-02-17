@@ -21,11 +21,7 @@
             "entity": "this",
             "predicate": {
               "vehicle": {
-                "type": "minecraft:boat",
-                "type_specific": {
-                  "type": "minecraft:boat",
-                  "variant": "bamboo"
-                }
+                "type": "minecraft:bamboo_raft"
               }
             }
           }
@@ -41,11 +37,7 @@
             "entity": "this",
             "predicate": {
               "vehicle": {
-                "type": "minecraft:chest_boat",
-                "type_specific": {
-                  "type": "minecraft:boat",
-                  "variant": "bamboo"
-                }
+                "type": "minecraft:bamboo_chest_raft"
               }
             }
           }
@@ -59,7 +51,7 @@
       "chest"
     ]
   ],
-	"rewards": {
-	  "function": "tracker:trails_and_tales/add"
-	}
+  "rewards": {
+    "function": "tracker:trails_and_tales/add"
+  }
 }
