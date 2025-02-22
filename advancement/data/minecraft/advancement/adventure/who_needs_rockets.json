@@ -5,7 +5,7 @@
     },
     "title": "Who needs Rockets ?",
     "description": "Use a Wind Charge to launch yourself upwards 8 blocks",
-    "frame": "challenge",
+    "frame": "goal",
     "show_toast": true,
     "announce_to_chat": true,
     "hidden": false
@@ -37,5 +37,7 @@
       "who_needs_rockets"
     ]
   ],
-  "sends_telemetry_event": true
+  "rewards": {
+    "function": "tracker:tricky_trials/add"
+  }
 }

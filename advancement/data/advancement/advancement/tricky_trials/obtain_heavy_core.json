@@ -3,7 +3,7 @@
     "icon": {
       "id": "minecraft:heavy_core"
     },
-    "title": "A strange block",
+    "title": "A Strange Block",
     "description": "Obtain a Heavy Core",
     "frame": "task",
     "show_toast": true,

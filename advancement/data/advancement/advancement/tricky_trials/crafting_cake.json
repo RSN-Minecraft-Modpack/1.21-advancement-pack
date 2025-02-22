@@ -4,7 +4,7 @@
       "id": "minecraft:cake"
     },
     "title": "Autocooking",
-    "description": "Craft a cake with a  crafter",
+    "description": "Craft a cake with a crafter",
     "frame": "task",
     "show_toast": true,
     "announce_to_chat": true,

@@ -8,7 +8,7 @@
           }
         }
       },
-      "title": "A stonified creature",
+      "title": "A Stonified Creature",
       "description": "Hit a mob affected by Infestation",
       "frame": "task",
       "show_toast": true,

@@ -8,20 +8,23 @@
     "frame": "task",
     "show_toast": true,
     "announce_to_chat": true,
-    "hidden": true
+    "hidden": false
   },
   "parent": "advancement:tricky_trials/root",
   "criteria": {
     "effect": {
       "trigger": "minecraft:any_block_use",
       "conditions": {
-        "location": {
-          "location": {
-            "block": {
-              "blocks": "minecraft:crafter"
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": "minecraft:crafter"
+              }
             }
           }
-        }
+        ]
       }
     }
   },

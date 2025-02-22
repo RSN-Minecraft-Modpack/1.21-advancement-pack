@@ -3,7 +3,7 @@
     "icon": {
       "id": "minecraft:breeze_rod"
     },
-    "title": "Defeat the breeze",
+    "title": "Defeat the Breeze",
     "description": "Kill a breeze",
     "frame": "task",
     "show_toast": true,

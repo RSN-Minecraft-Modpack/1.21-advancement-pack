@@ -3,7 +3,7 @@
     "icon": {
       "id": "minecraft:music_disc_creator"
     },
-    "title": "A cooper disc",
+    "title": "A Copper Disc",
     "description": "Obtain creator music disc",
     "frame": "task",
     "show_toast": true,

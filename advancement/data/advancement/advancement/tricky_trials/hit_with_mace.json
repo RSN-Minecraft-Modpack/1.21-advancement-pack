@@ -15,40 +15,36 @@
   },
   "parent": "advancement:tricky_trials/craft_mace",
   "criteria": {
-    "requirement": {
-      "trigger": "minecraft:entity_hurt_player",
+    "hit": {
+      "trigger": "minecraft:player_hurt_entity",
       "conditions": {
-        "player": [
-          {
-            "condition": "minecraft:all_of",
-            "terms": [
+        "damage": {
+          "dealt": {
+            "min": 30
+          },
+          "type": {
+            "tags": [
               {
-                "condition": "minecraft:entity_properties",
-                "entity": "this",
-                "predicate": {
-                  "movement": {
-                    "fall_distance": {
-                      "min": 5,
-                      "max": 0
-                    }
-                  }
-                }
-              },
-              {
-                "condition": "minecraft:match_tool",
-                "predicate": {
+                "id": "minecraft:is_player_attack",
+                "expected": true
+              }
+            ],
+            "direct_entity": {
+              "type": "minecraft:player",
+              "equipment": {
+                "mainhand": {
                   "items": "minecraft:mace"
                 }
               }
-            ]
+            }
           }
-        ]
+        }
       }
     }
   },
   "requirements": [
     [
-      "requirement"
+      "hit"
     ]
   ],
   "rewards": {

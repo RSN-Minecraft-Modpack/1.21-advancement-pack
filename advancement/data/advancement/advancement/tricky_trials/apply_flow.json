@@ -3,7 +3,7 @@
     "icon": {
       "id": "minecraft:flow_armor_trim_smithing_template"
     },
-    "title": "A real flow",
+    "title": "A Real Flow",
     "description": "Get and use Flow armor trim",
     "frame": "task",
     "show_toast": true,

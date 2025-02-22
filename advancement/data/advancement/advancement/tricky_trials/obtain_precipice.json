@@ -3,7 +3,7 @@
     "icon": {
       "id": "minecraft:music_disc_precipice"
     },
-    "title": "A secret disc",
+    "title": "A Secret Disc",
     "description": "Found the precipice disc",
     "frame": "task",
     "show_toast": true,

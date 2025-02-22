@@ -9,6 +9,7 @@
     "title": "Rocketman",
     "description": "Jump with windcharge after sneaking",
     "show_toast": true,
+    "frame": "goal",
     "announce_to_chat": true,
     "hidden": true
   },

@@ -3,7 +3,7 @@
     "icon": {
       "id": "minecraft:ominous_trial_key"
     },
-    "title": "Second wave",
+    "title": "Second Wave",
     "description": "Obtain an ominous trial key",
     "show_toast": true,
     "announce_to_chat": true,
