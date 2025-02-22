@@ -3,8 +3,8 @@
       "icon": {
         "id": "minecraft:resin_bricks"
       },
-      "title": "A Bleaches House",
-      "description": "Craft any blocks using pale oak planks",
+      "title": "A Resinous House",
+      "description": "Craft any blocks using resin blocks",
       "frame": "task",
       "show_toast": true,
       "announce_to_chat": true,

@@ -3,7 +3,7 @@
     "icon": {
       "id": "minecraft:bundle"
     },
-    "title": "Not a backpack",
+    "title": "Not a Backpack",
     "description": "Just one leather and one string",
     "frame": "goal",
     "show_toast": true,

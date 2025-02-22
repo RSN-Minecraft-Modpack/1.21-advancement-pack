@@ -3,8 +3,8 @@
     "icon": {
       "id": "minecraft:pale_moss_block"
     },
-    "title": "Duplicate a pale moss block",
-    "description": "With bone meal",
+    "title": "Duplicate a Pale Moss Block",
+    "description": "Use bone meal on pale moss",
     "frame": "task",
     "show_toast": true,
     "announce_to_chat": true,

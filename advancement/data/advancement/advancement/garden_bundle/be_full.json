@@ -5,7 +5,7 @@
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "slots": {
-          "occupied": 36
+          "occupied": 37
         },
         "items": [
           {
@@ -27,7 +27,7 @@
     "frame": "challenge",
     "show_toast": true,
     "announce_to_chat": true,
-    "hidden": false
+    "hidden": true
   },
   "requirements": [
     [

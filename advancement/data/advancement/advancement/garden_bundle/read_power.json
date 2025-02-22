@@ -1,5 +1,5 @@
 {
-  "parent": "advancement:garden_bundle/craft_heart.json",
+  "parent": "advancement:garden_bundle/craft_heart",
   "criteria": {
     "chiseled_bookshelf": {
       "conditions": {

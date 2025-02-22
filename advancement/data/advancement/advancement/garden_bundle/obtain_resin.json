@@ -3,14 +3,14 @@
     "icon": {
       "id": "minecraft:resin_clump"
     },
-    "title": "Garden blood",
+    "title": "Garden Blood",
     "description": "Hurt a creacking to get some resin",
     "frame": "task",
     "show_toast": true,
     "announce_to_chat": true,
     "hidden": false
   },
-  "parent": "advancement:garden_bundle/look_creaking.json",
+  "parent": "advancement:garden_bundle/look_creaking",
   "criteria": {
     "look": {
       "trigger": "minecraft:tick",

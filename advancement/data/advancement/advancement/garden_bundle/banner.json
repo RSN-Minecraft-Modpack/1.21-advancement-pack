@@ -27,11 +27,11 @@
     "icon": {
       "id": "minecraft:field_masoned_banner_pattern"
     },
-    "title": "New embroidery style",
+    "title": "New Embroidery Style",
     "frame": "challenge",
     "show_toast": true,
     "announce_to_chat": true,
-    "hidden": true
+    "hidden": false
   },
   "requirements": [
     [

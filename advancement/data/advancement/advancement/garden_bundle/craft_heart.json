@@ -10,7 +10,7 @@
     "announce_to_chat": true,
     "hidden": false
   },
-  "parent": "advancement:garden_bundle/obtain_resin.json",
+  "parent": "advancement:garden_bundle/obtain_resin",
   "criteria": {
     "resin": {
       "trigger": "minecraft:recipe_crafted",

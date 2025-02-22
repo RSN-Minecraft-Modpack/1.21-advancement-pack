@@ -15,7 +15,7 @@
   "display": {
     "description": "It's really fun",
     "icon": {
-      "id": "minecraft:bundle"
+      "id": "minecraft:green_bundle"
     },
     "title": "A colored bundle",
     "frame": "task",
