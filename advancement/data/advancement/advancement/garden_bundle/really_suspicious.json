@@ -4,7 +4,7 @@
       "id": "minecraft:closed_eyeblossom"
     },
     "title": "Psycho-plant",
-    "description": "Obtain an eyeblossom & use it to craft a §mreally suspicious§r stew",
+    "description": "Obtain an eyeblossom & use it to craft a §mreally suspicious§a stew",
     "frame": "task",
     "show_toast": true,
     "announce_to_chat": true,
